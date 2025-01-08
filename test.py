@@ -129,5 +129,22 @@ if direc == "si":
 else:
     print("Gracias por visitar")
     
+#variable boleana
+lider_abierto=True
+leche_sin_lactosa=True
+caja_habilitada=True
+sistema_de_pago=False
+    
+if lider_abierto:
+    print("Puede entar al super")
+    if leche_sin_lactosa:
+        print("Hay leche sin lactosa")
+        if caja_habilitada:
+            print("Hay cajas habilitadas")
+            if sistema_de_pago:
+                print("Puede pagar con debito")
+            else:
+                print("Puede pagar con efectivo")
+    
     
     
